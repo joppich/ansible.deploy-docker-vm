@@ -1,0 +1,6 @@
+---
+- src: https://github.com/joppich/ansible.vagranthost.git
+  scm: git
+
+- src: https://github.com/joppich/ansible.dockerhost.git
+  scm: git

@@ -1,0 +1,7 @@
+---
+- hosts: vagranthost
+  become_method: sudo
+  become: yes
+  roles:
+  - role: ansible.vagranthost
+    vagrant_diskdir: ./tmp/vdisks
